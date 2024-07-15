@@ -1,0 +1,295 @@
+*{
+    box-sizing:border-box;
+}
+.footer-top{
+  background-color: #3b455a;
+  color: #fff;
+  padding: 60px 10px;
+  font-family: Arial, sans-serif;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.footer-wrapper {
+  padding: 20px 0;
+}
+
+.footer-top {
+  /* padding: 60px 0 40px 0; */
+  background-color: #3b455a;
+  
+}
+
+.footer-bottom {
+  background-color: #3b455a;
+  padding-bottom: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 60px, 10px; 
+}
+
+
+.col-lg-4, .col-md-4 {
+  width: 100%;
+  max-width: 33.3333%;
+  padding: 0 15px;
+  padding-right: 20px; 
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  text-align: center;
+  
+}
+
+
+/* Logo Styles */
+.logo-footer {
+  margin-bottom: 20px;
+}
+
+.logo-footer .navbar-brand img {
+  width: auto;
+  position: relative;
+  top: -3px;
+}
+
+.logo-footer a span {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Social Media Styles */
+.footer-social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-list li {
+  display: inline-block;
+}
+
+.footer-social-list a {
+  color: #fff;
+  display: inline-block;
+  width: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 18px;
+  height: 38px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.footer-social-list a:hover,
+.footer-social-list a:focus {
+  background-color: #fff;
+  color: #84b4fe;
+}
+
+.list-social {
+  position: relative;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.list-social li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.list-social li:last-child {
+  margin-right: 0;
+}
+
+/* Useful Links Styles */
+.list-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-menu li {
+  margin-bottom: 10px;
+}
+
+.list-menu a {
+  line-height: 28px;
+  color: rgba(213, 213, 213, 0.6);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.list-menu a:hover,
+.list-menu a:focus {
+  color: #fff;
+}
+
+/* Contact Info Styles */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin-bottom: 12px;
+  color: rgba(213, 213, 213, 0.6);
+  font-size: 16px;
+}
+
+/* Subscribe Form Styles */
+.subscribe-form {
+  margin-top: 25px;
+}
+
+.subscribe-form .form-control {
+  outline: none;
+  float: left;
+  height: 45px;
+  width: 65%;
+  color: #000;
+  border-radius: 8px 0 0 8px;
+  padding: 0 15px;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: all 0.3s;
+  background-color: #fff;
+  border: none;
+}
+
+.subscribe-form .btn-subscribe {
+  position: relative;
+  margin-left: 0;
+  margin-top: 0;
+  height: 45px;
+  float: left;
+  border-radius: 0 8px 8px 0;
+  padding: 0 15px;
+  color: #fff;
+  background: #fe8402;
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:focus,
+.btn-subscribe:active {
+  background: #f18195;
+  color: #fff;
+}
+
+/* Additional Styles */
+.copyright {
+  text-align: left;
+}
+
+.copyright p {
+  margin: 0px auto;
+  padding: 0px;
+  color: #8688a4;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+footer p.error-message {
+  color: #e10438;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer p.success-message {
+  color: #4ec952;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-inner span {
+  line-height: 45px;
+  font-size: 13px;
+}
+
+#scrollUp {
+  background: #8ad62b;
+  border-radius: 8px;
+  bottom: 30px;
+  color: #ffffff;
+  height: 50px;
+  font-size: 30px;
+  line-height: 3;
+  right: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 50px;
+}
+
+.text-footer {
+  margin-top: 10px;
+}
+
+.text-footer p {
+  color: rgba(213, 213, 213, 0.6);
+}
+
+.footer-top h5 {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Utility Styles */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.list-inline {
+  display: flex;
+  gap: 10px;
+}
+
+/* Ensure proper separation between sections */
+.col-lg-4, .col-md-4 {
+  width: 100%;
+  max-width: 33.3333%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin-bottom: 40px; /* Increased margin to add more separation */
+}
+
+/* Additional spacing between sections */
+.footer-top .row > div {
+  margin-bottom: 40px;
+}
+
+/* Increase margin below headings for separation */
+.footer-top h5 {
+  margin-bottom: 20px;
+}
