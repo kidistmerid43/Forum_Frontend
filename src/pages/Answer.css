@@ -1,5 +1,18 @@
 .community_title {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
-  height: 1.5em;
+  height: 2.5em;
+  padding: 10px;
+}
+
+.answer_previous{
+  padding: 20px;
+}
+.answer_h4 {
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: #f39c12; /* Range color for the underline */
+  text-decoration-thickness: 2px; /* Adjust thickness as needed */
+  font-size: 20px;
+  padding-left: 5px;
 }

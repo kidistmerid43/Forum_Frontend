@@ -4,25 +4,19 @@
 .footer-top{
   background-color: #3b455a;
   color: #fff;
-  padding: 60px 10px;
+  padding-top: 60px;
+  margin-bottom: -1600px;
   font-family: Arial, sans-serif;
   display: block;
   unicode-bidi: isolate;
 }
 
-.footer-wrapper {
-  padding: 20px 0;
-}
 
-.footer-top {
-  /* padding: 60px 0 40px 0; */
-  background-color: #3b455a;
-  
-}
+
+
 
 .footer-bottom {
   background-color: #3b455a;
-  padding-bottom: 5px;
 }
 
 .container {
@@ -41,21 +35,11 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 -150px;
   padding: 60px, 10px; 
 }
 
 
-.col-lg-4, .col-md-4 {
-  width: 100%;
-  max-width: 33.3333%;
-  padding: 0 15px;
-  padding-right: 20px; 
-  box-sizing: border-box;
-  margin-bottom: 40px;
-  text-align: center;
-  
-}
 
 
 /* Logo Styles */
@@ -279,9 +263,13 @@ li {
 .col-lg-4, .col-md-4 {
   width: 100%;
   max-width: 33.3333%;
-  padding: 0 15px;
+  /* padding: 10px 15px; */
+  padding-left: 150px;
+  padding-right: 100px;
+  
   box-sizing: border-box;
-  margin-bottom: 40px; /* Increased margin to add more separation */
+  margin-bottom: 40px; 
+
 }
 
 /* Additional spacing between sections */

@@ -83,13 +83,13 @@ const token = localStorage.getItem("token");
       <br />
       <br />
       <div>
-        <h2>Questions</h2>
-        <h4>{question ? question.title : "New Title"}</h4>
+        <h2 className="answer_title">Questions</h2>
+        <h4 className="answer_h4">{question ? question.title : "New Title"}</h4>
         <h5>{question ? question.question : "New Question"}</h5>
         {answers.length > 0 && (
           <h2 className="community_title">Answer From The Community</h2>
         )}
-        <div>
+        <div className="answer_previous">
           {answers?.map((value, index) => {
             return <AnswerDetail answer={value} key={index} />;
           })}

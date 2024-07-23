@@ -6,7 +6,7 @@ import Logo from "../Source/img/evangadi-logo-home.png";
 import { UserContext } from "../context/UserContext";
 
 const Header = () => {
-	const [userData, setUserData] = useContext(UserContext);
+	const { userData, setUserData } = useContext(UserContext);
 
 	const logout = () => {
 		//set global state to undefined will logout the user
@@ -21,7 +21,7 @@ const Header = () => {
 	return (
 		<header className="navbar-header">
 			<nav className="navbar navbar-expand-lg fixed-top">
-				<div className="container">
+				<div className="container_Header">
 					<a className="navbar-brand" href="/">
 						<img src={Logo} alt="Evangadi Logo" />
 					</a>
@@ -34,7 +34,7 @@ const Header = () => {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span className="navbar-toggler-icon  icon_menu"></span>
+						{/* <span className="navbar-toggler-icon  icon_menu"></span> */}
 					</button>
 
 					<div
@@ -61,7 +61,7 @@ const Header = () => {
 									<a
 										className="lnk-toggler btn btn-blue"
 										data-panel=".panel-login"
-										href="/login"
+										href="/auth"
 										onClick={logout}
 									>
 										{userData.user ? `Log Out` : `Sign In`}
@@ -70,6 +70,7 @@ const Header = () => {
 							</li>
 						</ul>
 					</div>
+					
 				</div>
 			</nav>
 		</header>

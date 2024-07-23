@@ -1,3 +1,10 @@
+.container_home{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.pink-text{
+  color:rgb(254, 193, 191)
+}
 .header_row {
   height: 100%;
   width: 100%;

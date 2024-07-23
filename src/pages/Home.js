@@ -59,26 +59,27 @@ const Home = () => {
 	};
 
 	return (
-		<section className="container">
+		<section className="container_home">
 			<div className="header_row">
 				<button className="blue_button" onClick={handleAskQuestion}>
 					Ask Question
 				</button>
 				<h1 className="header_border">
-					Welcome: {userData.user}
+					Welcome: <span className="pink-text">{userData.user}</span>
 				</h1>
 			</div>
 			<div className="search">
-				<h2>Questions</h2>
+				<h2 className="">Questions</h2>
 				<input
-					className="search_bar"
+					className="search-bar"
 					type="text"
 					placeholder="Search..."
 					value={search}
 					onChange={(e) => setSearch(e.target.value)}
 				/>
 			</div>
-			<div>
+
+			<div className="question">
 				{Array.isArray(filterData) && filterData.length === 0 ? (
 					<div>No Result Found</div>
 				) : (

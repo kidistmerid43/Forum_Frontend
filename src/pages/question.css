@@ -43,3 +43,6 @@
   width: 5%;
   height: 100%;
 }
+.question {
+  transition: border-color 0.3s;
+}
